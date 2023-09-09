@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "ALK Life";
+  src: url(../ASSETS/FONTS/alk_life.otf);
+}
+
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url(../ASSETS/FONTS/bpg_dejavu_sans.ttf);
+}
+
+header {
+  font-family: "ALK Life", sans-serif;
+  color: #717276;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.53px;
+}
+
+header a {
+  color: #717276;
+}
+
+.nav-active-item {
+  color: #a62b28;
+}
+
+footer {
+  font-family: "ALK Life", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: "DeJavu Sans", sans-serif;
+  color: #717276;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.first-p {
+  font-family: "DeJavu Sans", sans-serif;
+  color: #717276;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.61px;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-family: "DeJavu Sans", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.61px;
+}
+
+.bookname {
+  font-family: "ALK Life", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.53px;
+  margin-bottom: 8px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  height: 200px;
+}
+
+.sulakauri-logo {
+  width: 178px;
+  height: 100px;
+  margin-left: 130px;
+}
+
+nav ul {
+  display: flex;
+  width: 715px;
+  justify-content: space-between;
+  margin-right: 130px;
+}
+
+.bg-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 160px 130px 160px 130px;
+}
+
+.section1 {
+  display: block;
+  width: 1180px;
+  margin: auto;
+}
+
+.head-of-section1 {
+  width: 533px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.middleimage {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.books {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-p {
+  margin-top: 50px;
+}
+
+.section2 {
+  display: block;
+  width: 1180px;
+  margin: auto;
+}
+
+.head-of-section2 {
+  width: 432px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.authors {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #d9d9d9;
+  height: 248px;
+  margin-top: 160px;
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 0px;
+  margin-top: 71px;
+  height: 106px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 71px;
+  width: 183px;
+}
+
+.middlefooternav {
+  margin: 8px 0;
+}
